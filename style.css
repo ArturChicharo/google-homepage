@@ -1,3 +1,67 @@
+/*------------
+NAVIGATION BAR
+------------*/
+#nav-bar {
+    display: grid;
+    grid-template-columns: 30px 30px 1320px 30px 30px 30px 70px;
+    column-gap: 50px;
+    place-items: center;
+    align-content: start;
+    justify-content: center;
+}
+
+#about {
+    grid-column: 1 / span 1;
+}
+
+#store {
+    grid-column: 2 / span 1;
+}
+
+#gmail {
+    grid-column: 4 / span 1;
+}
+
+#images {
+    grid-column: 5 / span 1;
+}
+
+#menu {
+    grid-column: 6 / span 1;
+    background: none;
+    border: none;
+    color: black;
+}
+
+#menu:hover {
+    color: gray;
+}
+
+#sign-in {
+    grid-column: 7 / span 1;
+    background-color: #229dc9;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    font-weight: bold;
+}
+
+.nav-options {
+    text-decoration: none;
+    color: #444;
+}
+
+.nav-options:hover {
+    text-decoration: underline;
+}
+
+
+/*--------------------------------------------
+MAIN CONTENT OF THE PAGE (LOGO AND SEARCH BAR)
+--------------------------------------------*/
 #main {
     display: flex;
     flex-direction: column;
