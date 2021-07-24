@@ -86,3 +86,53 @@ MAIN CONTENT OF THE PAGE (LOGO AND SEARCH BAR)
 #search-bar:focus {
     outline: none;
 }
+
+/*--------------------
+       FOOTER
+--------------------*/
+#footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 94px 72px 151px 1100px 61px 50px 68px;
+    column-gap: 40px;
+    place-items: center;
+    justify-content: center;
+    align-items: start;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-options {
+    text-decoration: none;
+    color: #444;
+}
+
+.footer-options:hover {
+    text-decoration: underline;
+}
+
+#advertising {
+    grid-column: 1 / span 1;
+}
+
+#business {
+    grid-column: 2 / span 1;
+}
+
+#how-search-works {
+    grid-column: 3 / span 1;
+}
+
+#privacy {
+    grid-column: 5 / span 1;
+}
+
+#terms {
+    grid-column: 6 / span 1;
+}
+
+#settings {
+    grid-column: 7 / span 1;
+}
