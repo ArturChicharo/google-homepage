@@ -8,6 +8,7 @@ NAVIGATION BAR
     place-items: center;
     align-content: start;
     justify-content: center;
+    margin-top: 15px;
 }
 
 #about {
@@ -52,6 +53,8 @@ NAVIGATION BAR
 .nav-options {
     text-decoration: none;
     color: #444;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-options:hover {
@@ -81,10 +84,50 @@ MAIN CONTENT OF THE PAGE (LOGO AND SEARCH BAR)
     height: 40px;
     border-radius: 25px;
     border: 1px solid lightgray;
+    font: normal 16px arial;
+    color: #222;
+    text-indent: 50px;
 }
 
-#search-bar:focus {
+#search-bar:focus, #search-bar:hover {
     outline: none;
+    box-shadow: 0px 0px 5px 1px lightgrey;
+    border: none;
+}
+
+#search-bar-icon {
+    color: lightgray;
+    position: absolute;
+    left: 37vw;
+    top: 37.3vh;
+}
+
+#center-buttons-div {
+    margin-top: 30px;
+}
+
+.center-button {
+    border: solid 1px transparent;
+    color: #777;
+    border-radius: 3px;
+}
+
+.center-button:hover {
+    border: solid 1px #555;
+    color: #444;
+}
+
+#google-search {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 15px;
+}
+
+#feeling-lucky {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 15px;
+    margin-left: 5px;
 }
 
 /*--------------------
@@ -107,6 +150,8 @@ MAIN CONTENT OF THE PAGE (LOGO AND SEARCH BAR)
 .footer-options {
     text-decoration: none;
     color: #444;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-options:hover {
