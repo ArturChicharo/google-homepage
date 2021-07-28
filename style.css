@@ -3,12 +3,13 @@ NAVIGATION BAR
 ------------*/
 #nav-bar {
     display: grid;
-    grid-template-columns: 30px 30px 1320px 30px 30px 30px 70px;
-    column-gap: 50px;
+    grid-template-columns: 2% 2% 78% 2% 2% 2% 4%;
+    column-gap: 25px;
     place-items: center;
     align-content: start;
     justify-content: center;
     margin-top: 15px;
+    max-width: 1904px;
 }
 
 #about {
@@ -97,9 +98,9 @@ MAIN CONTENT OF THE PAGE (LOGO AND SEARCH BAR)
 
 #search-bar-icon {
     color: lightgray;
-    position: absolute;
-    left: 37vw;
-    top: 37.3vh;
+    position: relative;
+    left: -520px;
+    top: 8px;
 }
 
 #center-buttons-div {
